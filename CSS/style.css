@@ -1,0 +1,40 @@
+button{
+  display: block;
+  border: none;
+  background-color: transparent;
+  margin-bottom: 15px;
+} 
+ 
+.wrapper{
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  min-height: 100vh;
+}
+
+#content-1{
+background-color: blue;
+min-height: 100VH;
+}
+
+#content-2{
+  background-color: yellow;
+  min-height: 100VH;
+  }
+
+#content-3{
+  background-color: green;
+  min-height: 100VH;
+}
+
+#content-4{
+  background-color: red;
+  min-height: 100VH;
+}
+
+.tabs__content-item{
+  display: none;
+}
+
+.tabs__content-item.tabs__content-item__active{
+display: block;
+}
